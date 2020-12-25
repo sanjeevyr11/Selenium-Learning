@@ -8,7 +8,7 @@ import java.util.Properties;
 public class TestBase {
     Properties prop;
 	public TestBase()  {
-		
+		//setting up the property path
 		String path=System.getProperty("user.dir")+File.separator+"src"+File.separator+"main"+File.separator+"java"+File.separator+"resource"+File.separator+"config.properties";
 		FileInputStream fis;
 		try {
